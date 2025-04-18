@@ -101,7 +101,7 @@ jobs:
     env:
       VCPKG_DEFAULT_TRIPLET: 'x64-windows'
       visual_studio: "Visual Studio 17 2022"
-      cuda: "12.4.0"
+      cuda: "12.6.0"
     strategy:
       fail-fast: false
     steps:

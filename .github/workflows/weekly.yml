@@ -441,7 +441,7 @@ jobs:
     env:
       VCPKG_DEFAULT_TRIPLET: ${{ matrix.config.vc }}
       visual_studio: "Visual Studio 17 2022"
-      cuda: "12.4.0"
+      cuda: "12.6.0"
     strategy:
       matrix:
         config:
